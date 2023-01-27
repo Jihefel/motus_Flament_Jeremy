@@ -18,5 +18,7 @@ Ce projet a été créé par Jihefel.
 
 ## Remarques
 
-Le jeu télévisé Motus est un jeu de lettres diffusé sur TF1 depuis 1988, créé par Armand Jammot. Il a été diffusé sur France 2 entre 2016 et 2019. Il consiste à trouver un mot caché en proposant des mots et en utilisant le moins d'essais possible. Ce projet reproduit le principe du jeu en utilisant Javascript pour les fonctionnalités de jeu. Il n'y a pas de bouton valider, les inputs sont écoutés lors de la pression de la touche Entrée.
+Le jeu télévisé Motus est un jeu de lettres diffusé sur France 2 de 1990 jusqu'en 2019 et présenté par Thierry Beccaro. Il consiste à trouver un mot caché en proposant des mots et en utilisant le moins d'essais possible. 
+
+Ce projet reproduit le principe du jeu en utilisant Javascript pour les fonctionnalités de jeu. Il n'y a pas de bouton valider, les inputs sont écoutés lors de la pression de la touche Entrée.
  
