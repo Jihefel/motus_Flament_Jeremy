@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./public/css/style.css">
+  <title>Motus - Jérémy Flament</title>
+</head>
+
+<body>
+  <div id="btn-scores" class="text-center">
+    <button id="btnAfficher" class="btn btn-outline-primary" type="button" data-bs-toggle="offcanvas"
+    data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Afficher le tableau des
+    scores</button>  
+  </div>
+  <section id="word" class="text-center">
+    <div id="mot-base">
+      <label for="base-mot">Entrez le mot à trouver</label>
+      <br>
+      <input type="text" name="base-mot" id="base-mot" maxlength="8" size="50%" placeholder="Entrez un mot de 8 lettres">
+    </div>
+    <div id="motsJeu">
+      <label for="input-mots">Entrez votre proposition de mot de 8 lettres</label>
+      <br>
+      <input type="text" name="input-mots" id="input-mots" maxlength="8" size="50%" placeholder="Entrez votre proposition de mot">
+    </div>
+    <div class="offcanvas offcanvas-end d-flex align-items-center justify-content-center" tabindex="-1"
+                id="offcanvasRight" aria-labelledby="offcanvasRightLabel" data-bs-scroll="true" data-bs-backdrop="false"
+                tabindex="-1">
+                <div id="scores">
+                    <div class="offcanvas-header">
+                        <h3 class="fs-1 fw-bold text-center text-uppercase">Tableau des scores</h3>
+                    </div>
+                    <div class="offcanvas-body">
+                        <table class="mx-auto text-center sortable">
+                            <thead>
+                                <tr class="fs-5">
+                                    <th class="px-3">Mot</th>
+                                    <th class="px-3 sorttable_numeric">Essais</th>
+                                </tr>
+                            </thead>
+                            <tbody class="fs-5 text-center">
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+  </section>
+  <section id="jeu" class="d-none">
+    <div class="container">
+      <div id="grille">
+        <div class="item1 item"></div>
+        <div class="item2 item"></div>
+        <div class="item3 item"></div>
+        <div class="item4 item"></div>
+        <div class="item5 item"></div>
+        <div class="item6 item"></div>
+        <div class="item7 item"></div>
+        <div class="item8 item"></div>
+
+        <div class="item1 item"></div>
+        <div class="item2 item"></div>
+        <div class="item3 item"></div>
+        <div class="item4 item"></div>
+        <div class="item5 item"></div>
+        <div class="item6 item"></div>
+        <div class="item7 item"></div>
+        <div class="item8 item"></div>
+
+        <div class="item1 item"></div>
+        <div class="item2 item"></div>
+        <div class="item3 item"></div>
+        <div class="item4 item"></div>
+        <div class="item5 item"></div>
+        <div class="item6 item"></div>
+        <div class="item7 item"></div>
+        <div class="item8 item"></div>
+
+        <div class="item1 item"></div>
+        <div class="item2 item"></div>
+        <div class="item3 item"></div>
+        <div class="item4 item"></div>
+        <div class="item5 item"></div>
+        <div class="item6 item"></div>
+        <div class="item7 item"></div>
+        <div class="item8 item"></div>
+
+        <div class="item1 item"></div>
+        <div class="item2 item"></div>
+        <div class="item3 item"></div>
+        <div class="item4 item"></div>
+        <div class="item5 item"></div>
+        <div class="item6 item"></div>
+        <div class="item7 item"></div>
+        <div class="item8 item"></div>
+
+        <div class="item1 item"></div>
+        <div class="item2 item"></div>
+        <div class="item3 item"></div>
+        <div class="item4 item"></div>
+        <div class="item5 item"></div>
+        <div class="item6 item"></div>
+        <div class="item7 item"></div>
+        <div class="item8 item"></div>
+      </div>
+    </div>
+  </section>
+  <div class="replay d-flex justify-content-center d-none">
+    <button type="button" class="btn btn-primary">Rejouer</button>
+  </div>
+
+  <!-- Script JS Bootstrap -->
+  <script src='./node_modules/bootstrap/dist/js/bootstrap.bundle.js'></script>
+</body>
+<script src='./public/js/main.js' type='module'></script>
+
+</html>
